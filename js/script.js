@@ -5,7 +5,7 @@ console.log('JS OK');
 // ? FOR *****************************************************************
 // // * Phase 1
 // // Link DOM element
-// const olElement = document.getElementById('list-container');
+// const olElement = document.getElementById('list-group');
 
 // // Create array
 // const shoppingList = ['latte', 'pane', 'pasta'];
@@ -15,7 +15,7 @@ console.log('JS OK');
 
 // // FOR cicle
 // for (let i = 0; i < shoppingList.length; i++) {
-//     printList += `<li>${shoppingList[i]}</li>`;
+//         printList += `<li class="list-group-item">${shoppingList[i]}</li>`;
 // }
 
 // // Print list in DOM
@@ -28,7 +28,7 @@ console.log('JS OK');
 
 // * Phase 1
 // Link DOM element
-const olElement = document.getElementById('list-container');
+const olElement = document.getElementById('list-group');
 
 // Create array
 const shoppingList = ['latte', 'pane', 'pasta'];
@@ -39,7 +39,7 @@ let printList = '';
 // WHILE cicle
 let i = 0;
 while (i < shoppingList.length) {
-    printList += `<li>${shoppingList[i]}</li>`;
+    printList += `<li class="list-group-item">${shoppingList[i]}</li>`;
 
     //Increment index
     i++
