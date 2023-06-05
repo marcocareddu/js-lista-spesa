@@ -16,3 +16,6 @@ let printList = '';
 for (let i = 0; i < shoppingList.length; i++) {
     printList += `<li>${shoppingList[i]}</li>`;
 }
+
+// Print list in DOM
+olElement.innerHTML = printList;
