@@ -10,4 +10,5 @@ const olElement = document.getElementById('list-container');
 const shoppingList = ['latte', 'pane', 'pasta'];
 
 // Create var
-let printList;
+let printList = '';
+
