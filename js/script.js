@@ -12,3 +12,7 @@ const shoppingList = ['latte', 'pane', 'pasta'];
 // Create var
 let printList = '';
 
+// FOR cicle
+for (let i = 0; i < shoppingList.length; i++) {
+    printList += `<li>${shoppingList[i]}</li>`;
+}
